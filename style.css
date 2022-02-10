@@ -35,12 +35,12 @@ p {
 .colors-id {
     text-align: center;
     text-transform: uppercase;
-    margin-top: 18px;
+    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .colors-id > span {
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 60px;
     text-decoration: underline;
     cursor: text;
