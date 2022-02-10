@@ -49,7 +49,7 @@ p {
     margin-right: 0;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
     .input-colors {
         flex-direction: column;
         align-items: center;
@@ -68,10 +68,16 @@ p {
     .colors-id > span {
         margin-right: 0;
         margin-bottom: 120px;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .colors-id > span:last-child {
         margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .colors-id > span {
+        font-size: 15px;
     }
 }
