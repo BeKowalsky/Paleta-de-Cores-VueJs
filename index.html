@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./vue.js"></script>
+    <title>Paleta de Cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Escolha de Paleta de Cores</h1>
+    <p>Site desenvolvido com o intuito de treinar meus primeiros passos com Vue.JS</p>
+
+    <div id="palette">
+        <div class="input-colors">
+            <input type="color" v-model="colorOne" id="colorOne">
+            <input type="color" v-model="colorTwo" id="colorTwo">
+            <input type="color" v-model="colorThree" id="colorThree">
+            <input type="color" v-model="colorFour" id="colorFour">
+            <input type="color" v-model="colorFive" id="colorFive">
+        </div>
+        <div class="colors-id">
+            <span>{{colorOne}}</span>
+            <span>{{colorTwo}}</span>
+            <span>{{colorThree}}</span>
+            <span>{{colorFour}}</span>
+            <span>{{colorFive}}</span>
+        </div>
+    </div>
+
+    <script>
+        const colors = new Vue({
+            el: "#palette",
+            data: {
+                colorOne: "#5AE6C5",
+                colorTwo: "#5DF0A4",
+                colorThree: "#5FD978",
+                colorFour: "#6CF05D",
+                colorFive: "#99E65A"
+            }
+        })
+    </script>
+</body>
+</html>

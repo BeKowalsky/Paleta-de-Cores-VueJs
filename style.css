@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 10px;
+    color: red;
+}
+
+.input-colors {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.input-colors > input[type="color"] {
+    width: 150px;
+    height: 150px;
+    border: 0 none;
+    padding: 0;
+}
+
+
+.colors-id {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colors-id > span {
+    font-size: 20px;
+    margin-right: 60px;
+    text-decoration: underline;
+    cursor: text;
+}
+
+.colors-id > span:last-child {
+    margin-right: 0;
+}
