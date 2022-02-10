@@ -68,6 +68,7 @@ p {
     .colors-id > span {
         margin-right: 0;
         margin-bottom: 120px;
+        font-size: 15px;
     }
 
     .colors-id > span:last-child {
