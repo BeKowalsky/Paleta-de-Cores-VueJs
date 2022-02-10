@@ -49,7 +49,7 @@ p {
     margin-right: 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
     .input-colors {
         flex-direction: column;
         align-items: center;
