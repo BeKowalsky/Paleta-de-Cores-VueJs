@@ -5,3 +5,5 @@
 
 
 - IMPORTANTE: A paleta não cria sequências de cores ou é criada sozinha, é totalmente manual.
+
+- Projeto: https://bekowalsky.github.io/Paleta-de-Cores-VueJs/
